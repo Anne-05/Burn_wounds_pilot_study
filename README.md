@@ -4,22 +4,22 @@ This repository contains the code needed to analyse the data corresponding to th
 ## HAPI region analysis
 The goal of this analysis was to provide an overview of burn wound healing time (<14 days, 14-21 days, and >21 days) versus measured handheld LSCI perfusion (in perfusion units (p.u.)) per region. In this case, regions of 24x24 pixels were used. The steps with corresponding used code are summed up below.
 
-1. **Registration of LSCI perfusion maps to LSCI color images** \\
+1. **Registration of LSCI perfusion maps to LSCI color images**\
 For this, the MATLAB code: `hapi_burns_perfusion_color_registration.m` was used.
 
-2. **Manual deliniation of burn wound areas** \\
+2. **Manual deliniation of burn wound areas**\
 Done by 2 researchers, reviewed by one burn wound expert.
 
-3. **Manual delineation of areas healing within 14-21 days and >21 days** \\
+3. **Manual delineation of areas healing within 14-21 days and >21 days**\
 Done by 1 researcher, reviewed by one burn wound expert and one burn wound surgeon. The MATLAB code: `hapi_burns_boundary_selection.m` was used for this.
 
-4. **Filtering of perfusion data** - removal of specular reflections and regions with a low signal-to-background ratio, and apply motion-artefact correction \\
+4. **Filtering of perfusion data** - removal of specular reflections and regions with a low signal-to-background ratio, and apply motion-artefact correction\
 The MATLAB code `filter_SpecularReflections_SNR_MAC.m` was used for this.
 
-5. **Resizing of the perfusion maps to create 24x24 pixel areas** \\
+5. **Resizing of the perfusion maps to create 24x24 pixel areas**\
 Maaike has the code for this, NaNs are ignored when calculating the regions
 
-6. **Plot data as histograms and as violin plots** \\
+6. **Plot data as histograms and as violin plots**\
 Maaike has the code for this, NaNs are ignored when calculating the regions
 
 
