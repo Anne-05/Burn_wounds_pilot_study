@@ -33,7 +33,7 @@ For this, the MATLAB code: `hapi_burns_perfusion_color_registration.m` was used 
 2. **Registration of LDI perfusion maps to LDI color images**\
 In some exeptional cases this alignment was incorrect, therefore an additional registration step was added and the MATLAB code `hapi_burns_ldi_perf_to_ldi_registration.m` was used for this.
 
-3. **Registration of LDI color images to LSCI color images**
+3. **Registration of LDI color images to LSCI color images**\
 The MATLAB code: `hapi_burns_ldi_hapi_registration.m` was used to register the LDI color images to the LSCI color images manually.
 
 4. **Manual delineation of areas healing within 14-21 days and >21 days**\
