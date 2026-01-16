@@ -13,13 +13,13 @@ Done by 2 researchers, reviewed by one burn wound expert.
 3. **Manual delineation of areas healing within 14-21 days and >21 days**\
 Done by 1 researcher, reviewed by one burn wound expert and one burn wound surgeon. The MATLAB code: `hapi_burns_boundary_selection.m` was used for this.
 
-4. **Filtering of perfusion data** - removal of specular reflections and regions with a low signal-to-background ratio, and apply motion-artefact correction\
-The MATLAB code `filter_SpecularReflections_SNR_MAC.m` was used for this.
+4. **Filtering of perfusion data**
+This entails removal of specular reflections and regions with a low signal-to-background ratio, and apply motion-artefact correction (MAC). The MATLAB code `filter_SpecularReflections_SNR_MAC.m` was used for this.
 
-5. **Resizing of the perfusion maps to create 24x24 pixel areas**\
+6. **Resizing of the perfusion maps to create 24x24 pixel areas**\
 Maaike has the code for this, NaNs are ignored when calculating the regions
 
-6. **Plot data as histograms and as violin plots**\
+7. **Plot data as histograms and as violin plots**\
 Maaike has the code for this, NaNs are ignored when calculating the regions
 
 
