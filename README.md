@@ -1,5 +1,5 @@
 # Burn_wounds_pilot_study
-This repository contains the code needed to analyse the data corresponding to the pilot study of 15 pediatric burn wound patients. This analysis consists of two parts: the HAPI region analysis and the LSCI vs. LDI comparison. Below, an overview of the used scripts is given. All patient data is saved in: <int>"P:\TNW\BMPI\Patientdata\HAPI Burn wound study</int> 
+This repository contains the code needed to analyse the data corresponding to the pilot study of 15 pediatric burn wound patients. This analysis consists of two parts: the HAPI region analysis and the LSCI vs. LDI comparison. Below, an overview of the used scripts is given. All patient data is saved in: <ins>"P:\TNW\BMPI\Patientdata\HAPI Burn wound study"</ins> 
 
 ## HAPI region analysis
 The goal of this analysis was to provide an overview of burn wound healing time (<14 days, 14-21 days, and >21 days) versus measured handheld LSCI perfusion (in perfusion units (p.u.)) per region. In this case, regions of 24x24 pixels were used. The steps and corresponding code are summed up below.
